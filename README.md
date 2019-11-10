@@ -22,9 +22,9 @@ __
 # specs
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
-| User inputs number | "8" | Input is split into an array of its digits, and displayed beneath the user input. |
-| Back end takes all 1's, 2's, and 3's and replaces with a predefined message | "4" | "0", "beep", "boop", "error" |
-|Back end calculates priority of number replacements, starting with 1 (least important), and ending with 3 (most important) | "45" | ..."30", "31" (replaced with "error") |
+| User inputs number | "12" | Input is split into an array of its digits, and displayed beneath the user input. |
+| Back end takes all 3's, 5's, and 8's and replaces with a predefined message | "10" | "0", "1", "2", "error!" "4", "not computing!", "6", "7", "buggy!" |
+|Back end calculates priority of number replacements, starting with 3 (most important), and ending with 8 (least important) | "45" | ..."30", "31" (replaced with "error!") |
 
 ### Support and contact details
 
