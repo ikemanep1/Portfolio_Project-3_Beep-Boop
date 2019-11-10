@@ -26,7 +26,7 @@ $(document).ready(function() {
     event.preventDefault();
     var input = $("input#numberInput").val();
     digitMake(input);
-    $(".results").toggle();
+    $("#numberOutput").show();
     $("#numberOutput").text(output);
   });
 

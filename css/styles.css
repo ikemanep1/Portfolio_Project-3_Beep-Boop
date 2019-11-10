@@ -31,7 +31,7 @@ margin-left: 150px;
 margin-right: 150px;
 font-family: monospace;
 }
-.results{
+#numberOutput{
   display: none;
   text-align: center;
   border: 3px solid #ff9900;
