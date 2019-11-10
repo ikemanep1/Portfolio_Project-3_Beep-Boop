@@ -5,7 +5,7 @@ function digitMake(input) {
   var take = parseInt($("input#numberInput").val());
   for (let i=0; i <= take; i++) {
     console.log(i);
-    if (i >= 501) {
+    if (i >= 101) {
       alert("please, not too high!")
     }
     else if (i.toString().includes("3")) {
@@ -29,5 +29,4 @@ $(document).ready(function() {
     $("#numberOutput").show();
     $("#numberOutput").text(output);
   });
-
 });

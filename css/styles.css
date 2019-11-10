@@ -22,14 +22,14 @@ p{
   font-family: monospace;
 }
 #userInterface{
-text-align: center;
-border: 3px solid #ff9900;
-padding: 4px;
-color: #ffff1c;
-background-color: #5a5b4f;
-margin-left: 150px;
-margin-right: 150px;
-font-family: monospace;
+  text-align: center;
+  border: 3px solid #ff9900;
+  padding: 4px;
+  color: #ffff1c;
+  background-color: #5a5b4f;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-family: monospace;
 }
 #numberOutput{
   display: none;
