@@ -5,7 +5,10 @@ function digitMake(input) {
   var take = parseInt($("input#numberInput").val());
   for (let i=0; i <= take; i++) {
     console.log(i);
-    if (i.toString().includes("3")) {
+    if (i >= 501) {
+      alert("please, not too high!")
+    }
+    else if (i.toString().includes("3")) {
       output.push("error!");
     } else if (i.toString().includes("8")) {
       output.push("not computing!");
@@ -23,7 +26,7 @@ $(document).ready(function() {
     event.preventDefault();
     var input = $("input#numberInput").val();
     digitMake(input);
-    $(".results").show();
+    $(".results").toggle();
     $("#numberOutput").text(output);
   });
 
