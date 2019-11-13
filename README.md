@@ -22,10 +22,12 @@ __
 # specs
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
-| User inputs number | "12" | Input is split into an array of its digits, and displayed beneath the user input. |
-| Back end takes all 3's, 5's, and 8's and replaces with a predefined message | "10" | "0", "1", "2", "error!" "4", "not computing!", "6", "7", "buggy!" |
-|Back end calculates priority of number replacements, starting with 3 (most important), and ending with 8 (least important) | "45" | ..."30", "31" (replaced with "error!") |
-
+| The program will take a number. | "5" | "5" |
+| The program will separate the number into its digits. | "5" | "1", "2", "3", "4", "5"|
+| The program will replace all numbers including a 3 with "I'm sorry Dave, I cannot do that..."| "5" | "1", "2", "I'm sorry Dave, I cannot do that...", "4", "5" |
+| The program will replace all numbers including a 2 with "BOOP!"| "5" | "1", "BOOP!", "I'm sorry Dave, I cannot do that...", "4", "5" |
+| The program will replace all numbers including a 1 with "BEEP!" | "5" | "BEEP!", "BOOP!", "I'm sorry Dave, I cannot do that...", "4", "5" |
+| The program will reveal the new string of numbers. | "5" | "BEEP!", "BOOP!", "I'm sorry Dave, I cannot do that...", "4", "5" |
 ### Support and contact details
 
 _ike.esquivelpilloud@gmail.com_
